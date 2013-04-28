@@ -1,0 +1,11 @@
+services:
+	core.sassCommand:
+		class: SassModule\Commands\SassCommand
+		tags: [command]
+
+factories:
+
+	sassMacro:
+		factory: SassModule\Macros\SassMacro::install(%compiler%, @venne.moduleHelpers, %wwwCacheDir%, %wwwDir%, %debugMode%)
+		parameters: [compiler]
+		tags: [macro]

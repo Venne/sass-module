@@ -1,0 +1,14 @@
+{
+	"name": "venne/sass-module",
+	"description": "sass php compiler module",
+	"keywords": ["cms", "nette", "venne", "module", "sass"],
+	"authors": [
+		{
+			"name": "Pavlína Ostrá"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"richthegeek/phpsass": "dev-master"
+	}
+}
